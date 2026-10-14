@@ -1,0 +1,13 @@
+[project]
+name = "whiteboard-digitizer"
+version = "2.0.0"
+description = "Capture whiteboard photos as structured text blocks with offline OCR stubs and markdown export."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
